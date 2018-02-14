@@ -1,0 +1,5 @@
+<option value="CR">CENTRAL REGION</option>
+<option value="WR">WEST REGION</option>
+<option value="NER">NORTH-EAST REGION</option>
+<option value="ER">EAST REGION</option>
+<option value="NR">NORTH REGION</option>

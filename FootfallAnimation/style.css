@@ -1,0 +1,81 @@
+html, body, #container {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+body {
+  /* height of .navbar, customize with @navbar-height variable */
+  padding-top: 80px;
+}
+.navbar {
+  min-height: 80px;
+}
+#sidebar {
+    float: left;
+    height: 100%;
+    max-width: 100%;
+    width: 300px;
+}
+#mapid {  
+    height: 100%;
+    width: auto;
+    position: relative;
+  }
+#nav_elements{
+  padding-left: 15px;
+  padding-right: 15px;
+}  
+.sidebar-wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.buttonHolder{ text-align: center; }
+@media (max-width: 767px) {
+#sidebar {
+  display: none;
+}
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.myChart
+ {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+table#results {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.results, th.results {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr.results:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
