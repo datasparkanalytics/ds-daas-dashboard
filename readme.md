@@ -11,8 +11,8 @@ You can use python http-server or nginx
 
 3. There are three dashboards:   
 **3.1 Footfall Dashboard:** Shows the footfall in different areas of Singapore based on selected date and filters
-URL: http://<host>:<port>/FootfallDashboard/
+URL: http://<host>:<port>/FootfallDashboard/  
 **3.2 Footfall Animation:** Shows the animation of houraly footfall in different areas of Singapore based on selected date and filters
-URL: http://<host>:<port>/FootfallAnimation/
+URL: http://<host>:<port>/FootfallAnimation/  
 **3.3 Trip Destination Dashboard:** Shows the Top origins for a particular destination
 URL: http://<host>:<port>/TripDestinationDashboard/
